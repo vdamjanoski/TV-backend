@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cast</title>
+</head>
+<body style="text-align: center; font-size: 18px;">
+        <h1>Casts</h1>
+        <div style="display: flex; flex-direction: column; justify-content: center; gap: 10px; border: 1px solid gray; border-radius: 10px; padding: 5px;">
+            <% data.forEach(data => { %>
+            <p>
+                Cast name: <b><%= data.name %></b> <br>
+                Casts program: <b><%= data.program %> </b>
+            </p>
+          <% }); %>
+        </div>
+</body>
+</html>
