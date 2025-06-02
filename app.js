@@ -6,9 +6,6 @@ const castController = require("./controller/castController")
 const programController = require("./controller/programController")
 
 
-
-
-
 const app = express();
 app.set(`view engine`, `ejs`)
 app.use(express.urlencoded({extended: true}))
